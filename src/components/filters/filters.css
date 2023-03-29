@@ -1,0 +1,78 @@
+
+.filters__container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.apply__button {
+
+  display: grid;
+  width: 100px;
+  border-radius: 20%;
+  box-shadow: 10px 5px 20px 5px;
+  text-align: center;
+  padding-top: 10px;
+}
+.apply__button {
+  background-image: url(../image/bkgr.jpg);
+  border: none;
+  font-size: 20px;
+  text-shadow: 0 0 3px #111010, 0 0 5px #0000FF;
+  cursor: pointer;
+}
+
+input,
+select { 
+  border: none;
+  width: 90px;
+  outline-style: none;
+  border-radius: 30%;
+  text-align: center;
+  background-image: url(../image/bkgr.jpg);
+
+
+}
+
+.amount__filters_container {
+  
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 40px;
+  
+}
+
+.filters__container section {
+  display: flex;
+  flex-direction: column;
+  height: 55px;
+  width: 100px;
+  background-color: inherit;
+  border-radius: 20%;
+  box-shadow: 10px 5px 20px 5px;
+  text-align: center;
+  margin: 5px;
+
+
+}
+
+.apply__button__container {
+  height: 100%;
+  display: flex;
+  
+}
+
+.options__container {
+  background-image: url(../image/bkgr.jpg);
+  background-size: cover;
+  width: 90%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 10px 5px 20px 5px;
+  height: 450px;
+  overflow-y: scroll;
+  background-color: inherit;
+  
+}
