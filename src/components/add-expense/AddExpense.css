@@ -14,7 +14,7 @@
 
 
 #radios,
-#select,
+#select select,
 #num,
 #butt,
 #date {
@@ -29,6 +29,7 @@
     text-align: center;  
     font-size: 40px;
     background-color: inherit;
+    gap: 30px;
 }
 
 section {
@@ -40,4 +41,9 @@ section {
     width: 60vh;
     height: 60px;
     font-size: 40px;
+}
+
+#inc,
+#exp {
+    display: none;
 }

@@ -35,9 +35,9 @@ margin: 20px;
 border-radius: 20%;
 box-shadow: 10px 5px 20px 5px;
 width: 70vh;
-height: 100px;  
+height: 100%;  
 text-align: center;  
-font-size: 40px;
+font-size: 20px;
 background-color: inherit;
 
 `

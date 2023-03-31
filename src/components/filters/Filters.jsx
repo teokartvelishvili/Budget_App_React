@@ -63,7 +63,7 @@ const Filters = () => {
       <section>
       <LabelInput
         id={1}
-        text='თარიღი:'
+        labelText='თარიღი:'
         type={'date'}
         name={'date-filter'}
         value={selectedDate}
@@ -82,7 +82,7 @@ const Filters = () => {
         <section>
         <LabelInput
           id={3}
-          text='მინ:'
+          labelText='მინ:'
           type={'number'}
           name={'amount-min-filter'}
           value={minAmount}
@@ -91,7 +91,7 @@ const Filters = () => {
         <section>
         <LabelInput
           id={4}
-          text='მაქს:'
+          labelText='მაქს:'
           type={'number'}
           name={'amount-max-filter'}
           value={maxAmount}

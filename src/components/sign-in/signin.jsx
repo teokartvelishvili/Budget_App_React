@@ -21,7 +21,7 @@ import {
           <StyledDiv>
             <LabelInput
               id={1}
-              text="ფოსტა"
+              labelText="ფოსტა"
               type={"email"}
               name={"email-field"}
               value={email}
@@ -31,7 +31,7 @@ import {
           <StyledDiv>
             <LabelInput
               id={2}
-              text="პაროლი"
+              labelText="პაროლი"
               type={"password"}
               name={"password-field"}
               value={password}

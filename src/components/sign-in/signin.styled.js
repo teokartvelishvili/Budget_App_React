@@ -45,7 +45,7 @@ box-shadow: 10px 5px 20px 5px;
 width: 70vh;
 height: 100px;  
 text-align: center;  
-font-size: 40px;
+font-size: 20px;
 background-color: inherit;
 
 `

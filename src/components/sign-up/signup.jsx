@@ -26,18 +26,19 @@ const Signup = () => {
         <StyledTitle> გაიარეთ რეგისტრაცია </StyledTitle>
         <StyledDiv>
         <LabelInput
-            id={7}
-            text="სახელი"
+            id={0}
+            labelText="სახელი"
             type={"email"}
             name={"name-field"}
             value={name}
             onChange={onNameChange}
+            placeholder={"სახელი"}
             />
             </StyledDiv>
         <StyledDiv>
         <LabelInput
             id={1}
-            text="ფოსტა"
+            labelText="ფოსტა"
             type={"email"}
             name={"email-field"}
             value={email}
@@ -48,7 +49,7 @@ const Signup = () => {
 
         <LabelInput
             id={2}
-            text="პაროლი"
+            labelText="პაროლი"
             type={"password"}
             name={"password-field"}
             value={password}
@@ -59,7 +60,7 @@ const Signup = () => {
 
         <LabelInput
             id={3}
-            text="გაიმეორეთ პაროლი"
+            labelText="გაიმეორეთ პაროლი"
             type={"password"}
             name={"password-field"}
             value={repeatPassword}
