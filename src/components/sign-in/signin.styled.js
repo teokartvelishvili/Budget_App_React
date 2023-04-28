@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const StyledContainer = styled.div`
-width: 300px
+width: 300px;
 gap: 30px;
 
 `;

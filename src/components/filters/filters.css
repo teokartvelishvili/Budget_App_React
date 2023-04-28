@@ -15,7 +15,8 @@
   padding-top: 10px;
 }
 .apply__button {
-  background-image: url(../image/bkgr.jpg);
+  /* background-image: url(../image/bkgr.jpg); */
+  background-color: inharit;
   border: none;
   font-size: 20px;
   text-shadow: 0 0 3px #111010, 0 0 5px #0000FF;
@@ -29,7 +30,8 @@ select {
   outline-style: none;
   border-radius: 30%;
   text-align: center;
-  background-image: url(../image/bkgr.jpg);
+  /* background-image: url(../image/bkgr.jpg); */
+  background-color: inherit;
 
 
 }

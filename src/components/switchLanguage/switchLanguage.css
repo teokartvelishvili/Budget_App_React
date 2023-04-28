@@ -1,0 +1,19 @@
+.Geoflag {
+    background-color: red;
+    background-size: cover;
+}
+
+.EnFlag {
+    background-color: blue;
+    background-size: cover;
+}
+
+.GeoFlag:hover, .EnFlag:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.2s ease; 
+}
+
+.unvisible {
+    display: none;
+}

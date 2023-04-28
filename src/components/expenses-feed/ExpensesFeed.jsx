@@ -1,17 +1,62 @@
-
+// import { useState } from "react";
 // import Expense from "../expense/Expense";
+// import Filters from "../filters/Filters";
+// import { ExpensesFeedContext } from "./ExpensesFeedContext";
+// import { useContext } from "react";
 
+// const getExpenses = () => {
+//   return [
+//     {
+//       id: 1,
+//       category: "shopping",
+//     },
+//     {
+//       id: 2,
+//       category: "invoice",
+//     },
+//   ];
+// };
+
+// const ExpensesList = () => {
+//   const { filters, setFilters } = useContext(ExpensesFeedContext);
+//   console.log("Filters", filters, setFilters);
+//   const { selectedCategory } = filters;
+//   console.log("Selected Category", selectedCategory);
+
+//   // 1. Read expenses
+//   const expenses = getExpenses();
+
+//   // 2. Filter by selected filters
+//   const filtered =
+//     selectedCategory !== ""
+//       ? expenses.filter((expense) => expense.category === selectedCategory)
+//       : expenses;
+
+//   return (
+//     <>
+//       {filtered.map((expense) => (
+//         <Expense expense={expense} key={expense.id} />
+//       ))}
+//     </>
+//   );
+// };
 
 // const ExpensesFeed = () => {
-//   const items = [1, 2 ,3]
+//   const [filters, setFilters] = useState({ selectedCategory: "" });
 //   return (
-//     <div>
-//       {items.map(expense => <Expense key={expense} />)}
-//     </div>
-//   )
-// }
+//     <ExpensesFeedContext.Provider value={{ filters, setFilters }}>
+//       <Filters filter={filters} setFilters={setFilters} />
+//       <ExpensesList filter={filters} />
+//       <button>Change Language</button>
+//     </ExpensesFeedContext.Provider>
+//   );
+// };
 
 // export default ExpensesFeed;
+
+
+
+
 
 
 import { StyledButton, StyledContainer, StyledTitle, StyledButtonContainer, StyledButtonsContainer, StyledDiv } from '../expense/Expense.styled'
